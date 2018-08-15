@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Raleway', sans-serif;
+  padding-top: 50px;
+}
+
+.search_box {
+  height: 100%;
+  width: 100%;
+}
+
+.search_box input {
+  font-family: 'Raleway', sans-serif;
+  height: inherit;
+  width: inherit;
+  font-size: 16px;
+  background-color: inherit;
+  font-weight: 300;
+  outline: none;
+}
+
+.search_box input::placeholder {
+  color: #bbb;
+}
+
+.error {
+  font-family: 'Raleway', sans-serif;
+  font-size: 30px;
+  color: #b8b8b8;
+  font-weight: 300;
+  text-align: center;
+  margin: 200px 0;
+}
+
+.movie_details {
+  padding: 20px;
+  font-family: 'Raleway', sans-serif;
+}
+
+.movie_details h1 {
+  font-size: 32px;
+  font-weight: 400;
+  color: #444;
+  margin: 0 0 10px;
+}
+
+.movie_details h2 {
+  font-size: 17px;
+  font-weight: 400;
+  color: #555;
+  margin: 10px 0;
+}
+
+.movie_details h3 {
+  font-size: 16px;
+  font-weight: 400;
+  color: #000000;
+  margin: 10px 0;
+}
+
+.movie_details h3 span {
+  font-size: 20px;
+  font-weight: 500;
+  color: #222;
+  display: block;
+  margin: 0 0 5px;
+}
+
+.movie_poster {
+  height: 300px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
