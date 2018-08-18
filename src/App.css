@@ -35,7 +35,7 @@ body {
   color: #b8b8b8;
   font-weight: 300;
   text-align: center;
-  margin: 200px 0;
+  margin: 20px 0;
 }
 
 .movie_details {
@@ -53,10 +53,13 @@ body {
 .movie_details h2 {
   font-size: 17px;
   font-weight: 400;
-  color: #555;
+  color: #666;
   margin: 10px 0;
 }
-
+.movie_details h2 span {
+  color: #000;
+  font-weight: 600;
+}
 .movie_details h3 {
   font-size: 16px;
   font-weight: 400;
@@ -77,4 +80,30 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+}
+
+.loader{
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 50;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.loader2{
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 50;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
