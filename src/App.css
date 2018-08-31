@@ -35,7 +35,7 @@ body {
   color: #b8b8b8;
   font-weight: 300;
   text-align: center;
-  margin: 20px 0;
+  margin: 10px 0;
 }
 
 .movie_details {
@@ -76,7 +76,7 @@ body {
 }
 
 .movie_poster {
-  height: 300px;
+  height: 400px;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;

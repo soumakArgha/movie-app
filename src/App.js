@@ -8,7 +8,6 @@ import ImageGrid from './components/ImageGrid'
 import Snackbar from '@material-ui/core/Snackbar';
 import IconButton from '@material-ui/core/IconButton';
 import CloseIcon from '@material-ui/icons/Close';
-import logo from './cinema.png'
 const API_KEY = '5fbcf33c';
 
 class App extends Component {
@@ -80,8 +79,8 @@ submit = (query) => {
         <Navbar submit={this.submit}/>
         {
           (this.state.result.length === 0) ? 
-          <div>
-            <img src={logo} alt="logo" style={{height: '150px', width: '150px', display: 'block', margin: '100px auto 0'}}/> 
+          <div style={{textAlign :'center', paddingTop: '50px'}}>
+            <i className="material-icons" style={{fontSize: '100px', color: '#b8b8b8'}}>search</i> 
             <h1 className="error">Search for movies</h1>
             </div>
             : 
